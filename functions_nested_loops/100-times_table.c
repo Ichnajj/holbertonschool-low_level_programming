@@ -19,13 +19,13 @@ for (j = 0; j <= n; j++)
 product = i * j;
 if (j == 0)
 {
-printf("%d", product);
+write("%d", product);
 }
 else
 {
-printf(",%3d", product);
+write(",%3d", product);
 }
 }
-printf("\n");
+write("\n");
 }
 }
